@@ -11,3 +11,11 @@ buttonPaper.addEventListener('click', function(){ buttonClicked('papier'); });
 var buttonScissors = document.getElementById('button-scissors');
 buttonScissors.addEventListener('click', function(){ buttonClicked('nożyce'); });
 
+/**
+ * Describe this function...
+ */
+function buttonclicked(argButtonName) {
+	clearMessage();
+	console.log(argButtonName + 'został kliknięty');
+}
+
