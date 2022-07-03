@@ -19,3 +19,21 @@ function buttonclicked(argButtonName) {
 	console.log(argButtonName + 'został kliknięty');
 }
 
+/**
+ * Describe this function...
+ */
+let argMoveId;
+function getMoveName(argMoveId) {
+	console.log('wywołano funkcję getMoveName z argumentem: ' + argMoveId);
+	if (argMoveID == 1) {
+		return 'kamień';
+	} else if (argMoveId == 2) {
+		return 'papier';
+	} else if (argMoveId == 3) {
+		return 'nożyce';
+	} else {
+		printMessage('Nie znam ruchu o id ' + argMoveId + '.Zakładam, że chodziło o "kamień".');
+		return 'kamień';
+	}
+	
+}
