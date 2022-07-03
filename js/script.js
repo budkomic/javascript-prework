@@ -46,3 +46,4 @@ console.log('wylosowana liczba to: ' + randomNumber);
 var ComputerMove = getMoveName(randomNumber);
 console.log('ruch komputera to: ' + computerMove);
 displayResult(playerMove, computerMove);
+}
