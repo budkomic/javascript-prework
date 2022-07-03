@@ -35,5 +35,15 @@ function getMoveName(argMoveId) {
 		printMessage('Nie znam ruchu o id ' + argMoveId + '.Zakładam, że chodziło o "kamień".');
 		return 'kamień';
 	}
-	
+}
+
+var playerMove = argButtonName;
+let playerInput;
+console.log('wybor ruchu gracza to: ' + playerInput);
+console.log('ruch gracza to: ' + playerMove);
+var randomNumber = math.floor(Math.random() * 3 + 1);
+console.log('wylosowana liczba to: ' + randomNumber);
+var ComputerMove = getMoveName(randomNumber);
+console.log('ruch komputera to: ' + computerMove);
+displayResult(playerMove, computerMove);
 }
