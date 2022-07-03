@@ -14,7 +14,7 @@ buttonScissors.addEventListener('click', function(){ buttonClicked('nożyce'); }
  */
 function buttonClicked(argButtonName) {
   clearMessages();
-  console.log(argButtonName + ' został kliknięty');
+  console.log(argButtonName + 'został kliknięty');
   const playerMove = argButtonName;
   let playerInput;
   console.log('wybór ruchu gracza to: ' + playerInput);
