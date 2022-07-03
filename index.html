@@ -11,9 +11,21 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+	<header>
+		<div class="container">
+			<h1>Chcesz zagrać?</h1>
+			<h2>Kamień, Papier, Nożyce</h2>
+			<p class="happy">Niech wygra lepszy!</p>
+		</div>
+	</header>
 	<div class="container">
-		<div id="buttons"></div>
-		<div id="messages">Zagrałem kamień! Jeśli Twój ruch to papier, to wygrywasz</div>
+		<p class="instruction">Zmierz się z komputerem w niesamowitym pojedynku na Kamień, Papier, Nożyce</p>
+		<div id="buttons">
+			<button id="button-rock" type="button"><i class="fas fa-hand-rock">Kamień</i></button>
+			<button id="button-paper" type="button"><i class="fas fa-hand-paper">Papier</i></button>
+			<button id="button-scissors" type="button"><i class="fas fa-hand-scissors">Nozyce</i></button>
+		</div>
+		<div id="messages"></div>
 	</div>
 	<script src="js/functions.js"></script>
 	<script src="js/script.js"></script>
